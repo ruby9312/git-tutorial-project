@@ -1,0 +1,24 @@
+diff a/git-tutorial-project/src/Main.java b/git-tutorial-project/src/Main.java	(rejected hunks)
+@@ -0,0 +1,22 @@
++public class Main {
++    public static void main(String[] args) {
++        Shop[] shops = new Shop[]{
++            new Shop("�ֳӫF"),
++            new Shop("����"),
++            new Shop("���C����")
++        };
++
++        System.out.println("�w��ϥ�NTUB�q�\�t�ΡA�H�U���i�I�\�����a�G");
++        for (Shop shop : shops) {
++            System.out.println(shop.name);
++        }
++    }
++}
++
++class Shop {
++    public final String name;
++
++    public Shop(String name) {
++        this.name = name;
++    }
++}
